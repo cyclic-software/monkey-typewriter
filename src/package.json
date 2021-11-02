@@ -1,0 +1,32 @@
+{
+  "name": "monkey-typewriter",
+  "version": "1.0.8",
+  "description": "Randomly generated words and slugs that look and sound like english words",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "prebuildpackage": "npm run clean && npm run compile && node dist/SetupPackage.js",
+    "buildpackage": "cd dist && npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyclic-software/monkey-typewriter.git"
+  },
+  "homepage":"https://github.com/cyclic-software/monkey-typewriter",
+  "keywords": [
+    "random",
+    "faker",
+    "language",
+    "slug",
+    "slugify",
+    "word",
+    "lorem",
+    "unique",
+    "ipsum"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
