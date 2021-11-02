@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
      }
 
      let monkey = `
-        ${fill(' ',l)}                     .="=.
+        ${fill(' ',l)}                .="=.
         ${fill(' ',l)}              _/.-.-.\_     _
         ${fill(' ',l)}             ( ( o o ) )    ))
         ${fill(' ',l)}              |/  "  \|    //
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
         ${fill(' ',l)}           '-- "--'  '--'
                    `
 
-     res.send(`<pre>${monkey}</pre>`)
+     res.send(`<center><pre>${monkey}</pre></center>`)
 })
 
 
