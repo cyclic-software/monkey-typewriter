@@ -1,7 +1,7 @@
 {
   "name": "monkey-typewriter",
   "version": "1.0.2",
-  "description": "",
+  "description": "Randomly generated words and slugs that look and sound like english words",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/test.js"
