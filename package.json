@@ -1,13 +1,19 @@
 {
   "name": "monkey-typewriter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/test.js"
   },
   "keywords": [
-    "random","faker","language","slug","slugify","word","lorem"
+    "random",
+    "faker",
+    "language",
+    "slug",
+    "slugify",
+    "word",
+    "lorem"
   ],
   "author": "",
   "license": "ISC",
