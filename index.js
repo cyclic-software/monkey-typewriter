@@ -1,5 +1,5 @@
 const prefixes = [
-    'w','de', 're', 'ex', 'in', 'po', 'pro', 'con','auto','ex','extra','hyper','anti','co','in',
+    'wa','de', 're', 'ex', 'in', 'po', 'pro', 'con','auto','ex','extra','hyper','anti','co','in',
     'mono','non','intra','un','post','tele','trans','up'
 ]
 const suffixes = [
@@ -22,7 +22,7 @@ const syls_lengths = [
     [1,25],
     [2,10],
     [3,8],
-    [4,5],
+    [4,2],
 ]
 
 const short_syls_lengths= [
@@ -56,6 +56,9 @@ const syl = ()=>{
     let c = weightedRandom(voiced)
     if(Math.random() > 0.6){
         c = weightedRandom(voiceless)
+        if(Math.random() > 0.6){
+            c = c+sample(vowels)
+        }
     }    
     let s = c+ sample(vowels)
     if(Math.random()>0.9){
@@ -66,6 +69,12 @@ const syl = ()=>{
 
 class Monkey {
 
+    static slug(length=1){
+        let s = Array.apply(null, Array(length)).map(l=>{
+            return this.word()
+        })
+        return s.join('-')
+    }
     static word(){
         let w = [
         ]

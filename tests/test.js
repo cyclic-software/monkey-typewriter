@@ -10,15 +10,10 @@ describe('monkey-typewriter', function () {
         console.log(word)
         assert.ok(word.length, 'word is not empty');
     });
-    it('types a sentense', function () {
-        let words =  Array.apply(null, Array(Math.floor(Math.random() * 6)+1)).map(l=>{
-            return Monkey.word() 
-        })
-
-        
-        let sentence = words.join(' ')
-        console.log(sentence)
-        assert.ok(sentence.length, 'sentence is not empty');
+    it('types a slug', function () {
+        let slug = Monkey.slug(2)
+        console.log(slug)
+        assert.ok(slug.length, 'slug is not empty');
     });
 
 })
