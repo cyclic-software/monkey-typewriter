@@ -21,7 +21,7 @@ const vowels = ['a','e','i','o','u']
 const syls_lengths = [
     [1,25],
     [2,10],
-    [3,8],
+    [3,5],
     [4,2],
 ]
 
