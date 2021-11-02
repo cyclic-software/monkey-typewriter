@@ -1,5 +1,5 @@
 # monkey-typewriter
-
+Randomly generated words and slugs that look and sound like english words
 ## Infinite monkey theorem
 <img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chimpanzee_seated_at_typewriter.jpg/440px-Chimpanzee_seated_at_typewriter.jpg" alt="monkey" width="200"/>
 
