@@ -10,7 +10,7 @@ The infinite monkey theorem states that a monkey hitting keys at random on a typ
 ^^ [Totally a real thing!](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
 
 ## Demo
-### Check out the live backend express example [deployed on cyclic](https://app.cyclic.sh)
+### Check out the live backend express example [deployed on cyclic](https://app.cyclic.sh) >> [DEMO](https://fish-auxiliary.cyclic-app.com/)
 
 ## The `Monkey`  
 
