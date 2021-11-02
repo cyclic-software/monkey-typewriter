@@ -13,8 +13,14 @@ The infinite monkey theorem states that a monkey hitting keys at random on a typ
 ### Check out the live backend express example [deployed on cyclic](https://app.cyclic.sh)
 
 ## The `Monkey`  
-Using some basic rules and probabilities in english vocabulary the `Monkey`
-comes up with words that look and sound like english words:
+
+Using some basic rules and probabilities in english vocabulary allows the `Monkey` to be really small! 
+A unique and readable word accommodates most use-cases like id and slug generation that often rely on much larger and often unnecessary packages. 
+- monkey-typewriter: `5.22 kB`
+- random-word-slugs: `186.22 kB`
+- faker: `10.1 MB` thats over 2000 times bigger!
+
+The `Monkey` comes up with words that look and sound like english words:
 
 ```
 telebo
