@@ -15,22 +15,24 @@ app.get('/', (req, res) => {
      let monkey = `
         ${fill(' ',l)}         .="=.
         ${fill(' ',l)}               _/.-.-.\\_     _
-        ${fill(' ',l)}              ( ( o o ) )    ))
+        ${fill(' ',l)}               (( o o ) )    ))
         ${fill(' ',l)}               |/  "  \\|    //
        .-${fill('-',l)}------.        \\'---'/    //
      _| ${w}  |_       /'"""'\\  ((
    =(_|_${fill('_',l)}______|_)=    / /_,_\\ \\ \\\\
       |::${fill(':',l)}:::::::|       \\_\\_'__/ \\  ))
-      |::${fill(':',l)}:::::[]|       /'  /'~\\  |//
-     |o=${fill('=',l)}======.|      /   /    \\  /
+     |::${fill(':',l)}:::::[]|       /'  /'~\\  |//
+    |o=${fill('=',l)}======.|      /   /    \\  /
     '""${fill('"',l)}"""""""' '--',--'\\/\\    /
         ${fill(' ',l)}           '-- "--'  '--'
                    `
 
      res.send(`
      <center><pre>${monkey}</pre></center>
+     <center style='font:sans-serif;'>
      <div><a href="https://www.npmjs.com/package/monkey-typewriter">npm</a></div
-     <div><a href="https://app.cyclic.sh">deploy</a></div
+     <div><a href="https://app.cyclic.sh">deploy</a></div>
+     </center>
      `)
 })
 
