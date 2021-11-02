@@ -8,9 +8,9 @@ The infinite monkey theorem states that a monkey hitting keys at random on a typ
 ^^ [Totally a real thing!](https://en.wikipedia.org/wiki/Infinite_monkey_theorem)
 
 
-### `monkey-typewriter`  
+### The `Monkey`  
 Using some basic rules and probabilities in english vocabulary the `Monkey`
-comes up with words that look and sound like english words. 
+comes up with words that look and sound like english words:
 
 
 ```
@@ -23,3 +23,9 @@ exlission
 unnoful
 dengothal
 ```
+
+
+----------
+### Contributing:
+This package is written vanilla javascript and has no dependencies. We suggest to keep the complexity low to eliminate possible security issues
+
