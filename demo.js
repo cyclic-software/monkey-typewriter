@@ -27,7 +27,11 @@ app.get('/', (req, res) => {
         ${fill(' ',l)}           '-- "--'  '--'
                    `
 
-     res.send(`<center><pre>${monkey}</pre></center>`)
+     res.send(`
+     <center><pre>${monkey}</pre></center>
+     <div><a href="https://www.npmjs.com/package/monkey-typewriter">npm</a></div
+     <div><a href="https://app.cyclic.sh">deploy</a></div
+     `)
 })
 
 
