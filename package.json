@@ -1,10 +1,10 @@
 {
-  "name": "monkey-typewriter",
-  "version": "1.0.4",
+  "name": "monkey-typewriter-dev",
+  "version": "1.0.0",
   "description": "Randomly generated words and slugs that look and sound like english words",
   "main": "demo/index.js",
   "scripts": {
-    "p": "rm -rf ./dist && mkdir -p dist && cp src/* dist/ && cd dist && npm version patch &&  npm publish"
+    "p": "cd src && npm version patch && cd .. && rm -rf ./dist && mkdir -p dist && cp src/* dist/ && cp README.md dist && cd dist &&  npm publish"
   },
   "keywords": [
     "random",
