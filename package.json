@@ -1,6 +1,6 @@
 {
   "name": "monkey-typewriter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Randomly generated words and slugs that look and sound like english words",
   "main": "demo/index.js",
   "scripts": {
