@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha tests/test.js"
   },
+  "keywords": [
+    "random","faker","language","slug","slugify","word","lorem"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
