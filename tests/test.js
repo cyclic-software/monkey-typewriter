@@ -1,5 +1,5 @@
 var assert = require('assert');
-var Monkey = require('../index.js');
+var Monkey = require('../src/index.js');
 
 describe('monkey-typewriter', function () {
     it('types a word', function () {

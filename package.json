@@ -2,9 +2,9 @@
   "name": "monkey-typewriter",
   "version": "1.0.3",
   "description": "Randomly generated words and slugs that look and sound like english words",
-  "main": "index.js",
+  "main": "demo/index.js",
   "scripts": {
-    "test": "mocha tests/test.js"
+    "publish": "rm -rf ./dist && mkdir -p dist && cp src/* dist/ && cd dist && npm publish"
   },
   "keywords": [
     "random",
@@ -13,7 +13,9 @@
     "slug",
     "slugify",
     "word",
-    "lorem"
+    "lorem",
+    "unique",
+    "ipsum"
   ],
   "author": "",
   "license": "ISC",
