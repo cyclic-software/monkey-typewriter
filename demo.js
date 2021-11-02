@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
      console.log('received a [GET] ')
 
      let w  = Monkey.word()
-     let l = w.length - 4;
+     let l = w.length+1 - 4;
      let fill = (c,n)=>{
           return Array.apply(null, Array(n)).map(l=>{
                return c
