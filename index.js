@@ -1,5 +1,5 @@
 const prefixes = [
-    'de', 're', 'ex', 'in', 'po', 'pro', 'con','auto','ex','extra','hyper','anti','co','in',
+    'w','de', 're', 'ex', 'in', 'po', 'pro', 'con','auto','ex','extra','hyper','anti','co','in',
     'mono','non','intra','un','post','tele','trans','up'
 ]
 const suffixes = [
@@ -12,6 +12,10 @@ const voiceless = [
 const voiced = [
     ['b', 10], ['d',10], ['g',10], ['j',2], ['l',10], ['m',10], ['n',10], ['ng',2], ['r',10],  ['th',8] , ['v',10], ['w',3], ['y',4], ['z',2]
 ]
+const syls = [
+    ['pho',10],['lo', 10], ['di',10], ['ta',10], ['bo',10]
+]
+
 const vowels = ['a','e','i','o','u']
 
 const syls_lengths = [
@@ -50,10 +54,14 @@ const sample = (items)=>{
 }
 const syl = ()=>{
     let c = weightedRandom(voiced)
-    if(Math.random() > 0.7){
+    if(Math.random() > 0.6){
         c = weightedRandom(voiceless)
     }    
-    return c+sample(vowels)
+    let s = c+ sample(vowels)
+    if(Math.random()>0.9){
+        s = weightedRandom(syls)
+    }
+    return s
 }
 
 class Monkey {
@@ -75,11 +83,6 @@ class Monkey {
             w.push(syl())
         }
 
-        if(Math.random() > 0.3){
-            w.push(weightedRandom(voiced))
-            w.push(sample(suffixes))
-        }
-
         let ww  = w.join('')
         
         if(vowels.includes(ww[ww.length-1]) && Math.random() > 0.15 && ww[ww.length-1] !='e'){
@@ -89,6 +92,14 @@ class Monkey {
                 w.push(weightedRandom(voiceless))
             }
         }
+
+        if(Math.random() > 0.3){
+            if(Math.random() > 0.5){
+                w.push(weightedRandom(voiced))
+            }
+            w.push(sample(suffixes))
+        }
+
         let fake_word = w.join('')
         if(fake_word.length < 3){
             fake_word = this.word()
