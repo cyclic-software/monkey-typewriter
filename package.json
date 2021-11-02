@@ -4,7 +4,7 @@
   "description": "Randomly generated words and slugs that look and sound like english words",
   "main": "demo/index.js",
   "scripts": {
-    "publish": "rm -rf ./dist && mkdir -p dist && cp src/* dist/ && cd dist && npm publish"
+    "p": "rm -rf ./dist && mkdir -p dist && cp src/* dist/ && cd dist && npm version patch &&  npm publish"
   },
   "keywords": [
     "random",
