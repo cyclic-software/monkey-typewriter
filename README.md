@@ -74,4 +74,4 @@ This package is written vanilla javascript and has no dependencies. We suggest t
 
 
 
-<img src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICJ2Tk9YeVRYTWdxQnhNS1dWODRBd0xCYTFCRWV3QjlGWiIsCiAgImFub255bW91c0lkIjoiYW5vbnltb3VzIiwKICAiZXZlbnQiOiAiUmVhZG1lIFZpZXdlZCIsCiAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6Im1vbmtleS10eXBld3JpdGVyIgogIH0KfQ=="/>
+<img src="https://cow-account.cyclic-app.com/track"/>
