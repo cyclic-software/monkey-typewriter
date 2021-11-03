@@ -74,4 +74,4 @@ This package is written vanilla javascript and has no dependencies. We suggest t
 
 
 
-<img src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICJ2Tk9YeVRYTWdxQnhNS1dWODRBd0xCYTFCRWV3QjlGWiIsCiAgInVzZXJJZCI6ImFub255bW91cyIsCiAgImV2ZW50IjogIlJlYWRtZSBWaWV3ZWQiLAogICJwcm9wZXJ0aWVzIjogewogICAgICAgICJzb3VyY2UiOiJtb25rZXktdHlwZXdyaXRlciIKICB9Cn0="/>
+<img src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICJ2Tk9YeVRYTWdxQnhNS1dWODRBd0xCYTFCRWV3QjlGWiIsCiAgImFub255bW91c0lkIjoiYW5vbnltb3VzIiwKICAiZXZlbnQiOiAiUmVhZG1lIFZpZXdlZCIsCiAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgInNvdXJjZSI6Im1vbmtleS10eXBld3JpdGVyIgogIH0KfQ=="/>
