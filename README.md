@@ -72,3 +72,6 @@ console.log(Monkey.slug(3))
 ### Contributing:
 This package is written vanilla javascript and has no dependencies. We suggest to keep the complexity low to eliminate possible security issues
 
+
+
+<img src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICJ2Tk9YeVRYTWdxQnhNS1dWODRBd0xCYTFCRWV3QjlGWiIsCiAgInVzZXJJZCI6ImFub255bW91cyIsCiAgImV2ZW50IjogIlJlYWRtZSBWaWV3ZWQiLAogICJwcm9wZXJ0aWVzIjogewogICAgICAgICJzb3VyY2UiOiJtb25rZXktdHlwZXdyaXRlciIKICB9Cn0="/>
