@@ -74,4 +74,4 @@ This package is written vanilla javascript and has no dependencies. We suggest t
 
 
 
-<img src="https://cow-account.cyclic-app.com/monkey-typewriter" data-src="https://cow-account.cyclic-app.com/monkey-typewriter"/>
+<img src="https://cow-account.cyclic-app.com/monkey-typewriter"/>
